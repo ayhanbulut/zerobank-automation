@@ -1,0 +1,14 @@
+/Users/ayhanbulut/IdeaProjects/zerobank-automation/src/test/java/com/bitrix/runners/CukesRunner.java
+/Users/ayhanbulut/IdeaProjects/zerobank-automation/src/test/java/com/bitrix/pages/LoginPage.java
+/Users/ayhanbulut/IdeaProjects/zerobank-automation/src/test/java/com/bitrix/stepdefinitions/PayBills.java
+/Users/ayhanbulut/IdeaProjects/zerobank-automation/src/test/java/com/bitrix/stepdefinitions/Hooks.java
+/Users/ayhanbulut/IdeaProjects/zerobank-automation/src/test/java/com/bitrix/pages/AccountActivities.java
+/Users/ayhanbulut/IdeaProjects/zerobank-automation/src/test/java/com/bitrix/pages/DashboardPage.java
+/Users/ayhanbulut/IdeaProjects/zerobank-automation/src/test/java/com/bitrix/utilities/ConfigurationReader.java
+/Users/ayhanbulut/IdeaProjects/zerobank-automation/src/test/java/com/bitrix/pages/AccountPage.java
+/Users/ayhanbulut/IdeaProjects/zerobank-automation/src/test/java/com/bitrix/stepdefinitions/AccountSummary.java
+/Users/ayhanbulut/IdeaProjects/zerobank-automation/src/test/java/com/bitrix/stepdefinitions/AccountActivity.java
+/Users/ayhanbulut/IdeaProjects/zerobank-automation/src/test/java/com/bitrix/utilities/Driver.java
+/Users/ayhanbulut/IdeaProjects/zerobank-automation/src/test/java/com/bitrix/pages/BasePage.java
+/Users/ayhanbulut/IdeaProjects/zerobank-automation/src/test/java/com/bitrix/stepdefinitions/Login.java
+/Users/ayhanbulut/IdeaProjects/zerobank-automation/src/test/java/com/bitrix/utilities/BrowserUtils.java

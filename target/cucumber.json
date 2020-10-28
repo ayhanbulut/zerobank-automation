@@ -1,0 +1,113 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-10-27T12:53:27.360Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1951000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.bitrix.stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "user pays bills positive scenario",
+        "description": "",
+        "id": ";user-pays-bills-positive-scenario;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 92969000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.bitrix.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4564604000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user webpage and sign in",
+            "match": {
+              "location": "com.bitrix.stepdefinitions.Login.user_webpage_and_sign_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1240252000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user logs in with valid credentials",
+            "match": {
+              "location": "com.bitrix.stepdefinitions.Login.user_logs_in_with_valid_credentials()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 741551000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user press Pay Bills button",
+            "match": {
+              "location": "com.bitrix.stepdefinitions.PayBills.user_press_Pay_Bills_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5532670000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the user fills form \"100\",\"2020 12 09\" and \"first payment\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"100\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"2020 12 09\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"first payment\"",
+                  "offset": 43
+                }
+              ],
+              "location": "com.bitrix.stepdefinitions.PayBills.the_user_fills_form_and(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@paybills"
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/PayBills.feature",
+    "tags": []
+  }
+]
